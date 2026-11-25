@@ -1,0 +1,6 @@
+{"type":"user","uuid":"u1","message":{"role":"user","content":"SAMPLE DATA: hand-written session file, not a real run. Fix the flaky test."}}
+{"type":"assistant","uuid":"a1","message":{"id":"msg_01","model":"sample-claude","role":"assistant","content":[{"type":"text","text":"Looking at the test."}],"usage":{"input_tokens":12,"cache_creation_input_tokens":9000,"cache_read_input_tokens":0,"output_tokens":180}}}
+{"type":"assistant","uuid":"a2","message":{"id":"msg_01","model":"sample-claude","role":"assistant","content":[{"type":"tool_use","name":"Read","input":{}}],"usage":{"input_tokens":12,"cache_creation_input_tokens":9000,"cache_read_input_tokens":0,"output_tokens":180}}}
+{"type":"user","uuid":"u2","message":{"role":"user","content":[{"type":"tool_result","content":"..."}]}}
+{"type":"assistant","uuid":"a3","message":{"id":"msg_02","model":"sample-claude","role":"assistant","content":[{"type":"text","text":"Fixed the race."}],"usage":{"input_tokens":40,"cache_creation_input_tokens":1200,"cache_read_input_tokens":9000,"output_tokens":620}}}
+{"type":"assistant","uuid":"a4","message":{"id":"msg_03","model":"<synthetic>","role":"assistant","content":[{"type":"text","text":"No response requested."}],"usage":{"input_tokens":0,"output_tokens":0}}}

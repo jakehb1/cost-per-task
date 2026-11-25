@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cost-per-task"
+version = "0.1.0"
+description = "What a finished task costs per model, retries and failures included, from the usage your runs already log. Stdlib only."
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Jakeh Bradley"}]
+requires-python = ">=3.9"
+
+[project.urls]
+Homepage = "https://a-l.studio"
+
+[project.scripts]
+cost-per-task = "costpertask.cli:main"
+
+[tool.setuptools]
+packages = ["costpertask"]

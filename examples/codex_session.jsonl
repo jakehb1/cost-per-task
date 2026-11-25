@@ -1,0 +1,4 @@
+{"type":"session_meta","payload":{"id":"sample","note":"SAMPLE DATA: hand-written rollout file, not a real run"}}
+{"type":"turn_context","payload":{"model":"sample-codex","cwd":"/repo"}}
+{"type":"event_msg","payload":{"type":"token_count","info":{"total_token_usage":{"input_tokens":8000,"cached_input_tokens":2000,"output_tokens":500,"reasoning_output_tokens":300,"total_tokens":8500}}}}
+{"type":"event_msg","payload":{"type":"token_count","info":{"total_token_usage":{"input_tokens":21000,"cached_input_tokens":14000,"output_tokens":1400,"reasoning_output_tokens":900,"total_tokens":22400}}}}
